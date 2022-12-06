@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  font-family: "Libre Baskerville", serif;
+}
+body {
+  min-width: 100%;
+  background-color: #f7f7f7;
+}
+.manual {
+  width: 100%;
+  height: 48px;
+  border-bottom: 1px solid black;
+  background-color: #0b162ae3;
+  display: flex;
+}
+.educ {
+  width: 45px;
+  margin-left: 10px;
+}
+.bravo {
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+ul {
+  padding: 15px;
+}
+
+.imagem {
+  width: 50%;
+  height: 500px;
+  background: url("../img/photo-education-concept.jpg");
+  padding: 100;
+}
+.texto {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.815);
+  text-align: center;
+  top: 190px;
+  width: 250px;
+  line-height: 30px;
+  height: 30px;
+  margin-left: 170px;
+}
+.caixa {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.espaço {
+  padding: 30px;
+  text-align: justify;
+  text-align: left;
+}
+h3 {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.sai {
+  margin-top: 10px;
+  padding: 30px;
+  text-align: justify;
+  text-align: left;
+}
+.conteiner {
+  border: solid 20px #263041;
+  margin: 0;
+  font-size: 13px;
+}
+.add {
+  text-align: center;
+  text-align: left;
+  padding: 50px;
+}
+.ratata {
+  display: flex;
+  margin-left: 60%;
+
+  margin-top: 5px;
+}
+.ataca {
+  display: flex;
+  font-size: 15px;
+  text-align: center;
+  padding: 4px;
+  margin-left: 50px;
+  color: #deca54;
+}
+.yon {
+  text-align: center;
+  text-align: left;
+  padding-right: 50px;
+  display: flex;
+}
+.tarara {
+  width: 60%;
+  margin-left: 60px;
+  align-items: center;
+}
+.why {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.atacadao {
+  text-align: center;
+  text-align: left;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.caminho {
+  text-align: center;
+
+  margin-top: 10px;
+}
+.video {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.ataca:hover {
+  background-color: #1f2c3dc0;
+  cursor: pointer;
+  margin-top: -15px;
+}
+.rato {
+  margin-left: 160px;
+  margin-top: 50px;
+
+  margin-right: 100px;
+}
+.acampamento {
+  margin-left: 100px;
+  text-align: center;
+  padding-right: 200px;
+  margin-right: 210px;
+  padding-right: 100px;
+  font-size: 0.9rem;
+  margin-bottom: 100px;
+}
+.muita {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  display: flex;
+}
+.carara {
+  width: 90px;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+.carara:hover {
+  border-radius: 100%;
+
+  background-color: #deca54;
+}
+.dor {
+  height: 140px;
+  margin-right: 300px;
+  margin-left: 40px;
+
+  width: 30%;
+  margin-top: 15px;
+}
+.dor:hover {
+  border-radius: 100%;
+  background-color: #deca54;
+}
+.toqui {
+  flex-direction: column;
+}
+.gacha {
+  margin-right: 300px;
+  margin-bottom: 30px;
+}
+.son {
+  padding-right: 300px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.yui {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #deca54;
+}
+.man {
+  position: fixed;
+  width: 100%;
+ 
+
+  top: 0%;
+}
