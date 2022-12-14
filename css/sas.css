@@ -287,15 +287,23 @@ img {
     display: block;
   }
 }
-@media screen and (min-width: 300px) and (max-width: 1000px) {
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  .educ{
+    width: 15%;
+    height: 90%;
+  }
+  .ataca{font-size: 30px;}
+
   .conteiner {
-    width: 310%;
+    width:300%;
   }
   .manual {
     width: 100%;
+    height: 180px;
+    
   }
   .ratata {
-    margin-left: 50%;
+    margin-left: 20%;
   }
   .caixa {
     display: block;
@@ -312,7 +320,8 @@ img {
   }
   .hi {
     text-align: center;
-    margin-top: 90px;
+    margin-top: 200px;
+
   }
   .imagem {
     margin: 0 auto;
@@ -342,7 +351,9 @@ img {
   }
 
   .video {
-    display: block;
+    display: flex;
+   justify-content: center;
+   margin-right: 10%;
   }
 
   .autune {
@@ -355,30 +366,36 @@ img {
     display: block;
   }
   .carara {
-    margin-left: 450px;
+    margin-left: 50%
   }
   .rato {
-    margin-left: 320px;
+    text-align: center;
+   
   }
   .acampamento {
     margin-left: 320px;
     font-size: 30px;
   }
   .dor {
-    width: 15%;
-    margin-left: 420px;
+    width: 10%;
+    margin-left:47%
   }
 
   .gacha {
-    margin-left: 380px;
+    margin-left: 40%;
   }
   .son {
     margin-left: 300px;
     font-size: 30px;
   }
   .numero {
-    font-size: 50px;
+  text-align: center;
   }
+
+
+
+
 }
+
 @media screen and( min-width:1024px) and (max-width: 1440px) {
 }
