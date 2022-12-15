@@ -21,6 +21,11 @@ body {
   margin-left: 50px;
   margin-bottom: 50px;
 }
+
+.gil {
+  text-align: center;
+}
+
 ul {
   padding: 15px;
 }
@@ -31,6 +36,11 @@ ul {
   background: url("../img/photo-education-concept.jpg");
   padding: 100;
 }
+
+.borda {
+  border: solid 1px black;
+}
+
 .texto {
   position: absolute;
   color: rgba(255, 255, 255, 0.815);
@@ -221,8 +231,14 @@ img {
 }
 
 @media screen and (min-width: 1700px) {
+  .caixa {
+    justify-content: center;
+    display: flex;
+    margin-left: 10%;
+  }
   .espaço {
     width: 20%;
+    padding-top: 20px;
   }
 
   .ratata {
@@ -240,6 +256,7 @@ img {
     margin-right: 150px;
     padding-right: 80px;
     padding-right: 100px;
+    padding: 0;
   }
   .educaçao {
     display: block;
@@ -287,30 +304,28 @@ img {
     display: block;
   }
 }
-@media screen and (min-width: 300px) and (max-width: 800px) {
-  .educ{
-    width: 15%;
-    height: 90%;
+@media screen and (min-width: 450px) and (max-width: 1000px) {
+  .video {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
   }
-  .ataca{font-size: 30px;}
 
   .conteiner {
-    width:300%;
+    width: 310%;
   }
   .manual {
     width: 100%;
-    height: 180px;
-    
   }
   .ratata {
-    margin-left: 20%;
+    margin-left: 50%;
   }
   .caixa {
     display: block;
     margin-top: 50px;
   }
   .espaço {
-    padding-left: 200px;
+    padding-left: 20%;
     text-align: left;
     width: 60%;
   }
@@ -320,8 +335,7 @@ img {
   }
   .hi {
     text-align: center;
-    margin-top: 200px;
-
+    margin-top: 90px;
   }
   .imagem {
     margin: 0 auto;
@@ -330,8 +344,11 @@ img {
   .sai {
     width: 70%;
     text-align: left;
-    margin: 0 auto;
+    margin-left: 15%;
     margin-top: 60px;
+  }
+  .uia {
+    margin-left: 10%;
   }
 
   .texto {
@@ -344,16 +361,10 @@ img {
   }
 
   .tarara {
-    margin-left: 200px;
+    margin-left: 20%;
   }
   .hate {
     margin-left: 150px;
-  }
-
-  .video {
-    display: flex;
-   justify-content: center;
-   margin-right: 10%;
   }
 
   .autune {
@@ -366,36 +377,176 @@ img {
     display: block;
   }
   .carara {
-    margin-left: 50%
+    margin-left: 50%;
   }
   .rato {
     text-align: center;
-   
   }
   .acampamento {
     margin-left: 320px;
     font-size: 30px;
   }
   .dor {
-    width: 10%;
-    margin-left:47%
+    width: 5%;
+    margin-left: 49%;
   }
 
   .gacha {
-    margin-left: 40%;
+    margin-left: 45%;
+    margin-right: 35%;
   }
   .son {
     margin-left: 300px;
     font-size: 30px;
   }
   .numero {
-  text-align: center;
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 450px) {
+  body {
+    width: 200%;
   }
 
+  .video {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
 
+  .conteiner {
+    width: 70%;
+  }
+  .manual {
+    width: 100%;
+  }
+  .ratata {
+    margin-left: 150px;
+  }
+  .caixa {
+    display: block;
+    margin-top: 50px;
+  }
+  .espaço {
+    padding-left: 30%;
+    text-align: left;
+    width: 90%;
+  }
+  .conteiner {
+    font-size: 30px;
+    border: none;
+  }
+  .hi {
+    margin-left: 50%;
+    margin-top: 90px;
+  }
+  .imagem {
+    margin-left: 20%;
+    width: 120%;
+  }
+  .sai {
+    width: 70%;
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 60px;
+  }
+  .uia {
+    margin-left: 15%;
+    width: 90%;
+  }
 
+  .texto {
+    position: relative;
+    top: 84px;
+  }
 
-}
+  .aka {
+    display: block;
+  }
 
-@media screen and( min-width:1024px) and (max-width: 1440px) {
+  .tarara {
+    margin-left: 20%;
+    width: 90%;
+    margin-top: 50px;
+  }
+  .hate {
+    margin-left: 150px;
+  }
+  .borda {
+    border: none;
+  }
+
+  .autune {
+    margin-left: 150px;
+  }
+  .muita {
+    display: block;
+  }
+  .toqui {
+    display: block;
+  }
+  .carara {
+    margin-left: 58%;
+  }
+  .rato {
+    text-align: center;
+  }
+  .acampamento {
+    margin-left: 25%;
+    font-size: 30px;
+    padding-right: 0px;
+    margin-right: 0;
+    width: 90%;
+  }
+  .dor {
+    width: 25%;
+    margin-left: 57%;
+  }
+
+  .gacha {
+    margin-left: 45%;
+    margin-right: 35%;
+  }
+  .son {
+    margin-left: 25%;
+    font-size: 30px;
+    padding-right: 0;
+    width: 90%;
+  }
+  .numero {
+    font-size: 50px;
+  }
+  .why {
+    margin-left: 40%;
+  }
+  .atacadao {
+    margin-left: 10%;
+    width: 80%;
+    text-align: left;
+  }
+  .caminho {
+    margin-left: 20%;
+  }
+
+  .rato {
+    margin-left: 40%;
+    text-align: initial;
+  }
+  .gil {
+    margin-left: 40%;
+  }
+  .caminho {
+    margin-left: 40%;
+  }
+  .video {
+    display: block;
+  }
+  .autune {
+    margin-top: 10%;
+    margin-left: 20%;
+  }
+  .hate {
+    margin-top: 10%;
+    margin-left: 20%;
+  }
 }
