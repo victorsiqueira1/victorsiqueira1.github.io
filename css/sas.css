@@ -74,7 +74,6 @@ h3 {
   padding: 30px;
   text-align: justify;
   text-align: left;
-  
 }
 .conteiner {
   border: solid 20px #263041;
@@ -448,7 +447,7 @@ img {
   .sai {
     width: 90%;
     text-align: left;
-  padding-left: 28%;
+    padding-left: 28%;
     margin-top: 60px;
     text-align: left;
   }
@@ -467,7 +466,7 @@ img {
   }
 
   .tarara {
-    margin-left: 20%;
+    margin-left: 30%;
     width: 90%;
     margin-top: 50px;
   }
@@ -488,7 +487,7 @@ img {
     display: block;
   }
   .carara {
-    margin-left: 58%;
+    margin-left: 62%;
   }
   .rato {
     text-align: center;
@@ -506,8 +505,8 @@ img {
   }
 
   .gacha {
-    margin-left: 45%;
-    margin-right: 35%;
+    margin-left: 50%;
+    margin-right: 0%;
   }
   .son {
     margin-left: 25%;
@@ -522,18 +521,18 @@ img {
     margin-left: 40%;
   }
   .atacadao {
-    padding-left: 20%;
+    padding-left: 25%;
     width: 105%;
     text-align: left;
-    
   }
   .caminho {
     margin-left: 20%;
   }
 
   .rato {
-    margin-left: 40%;
+    margin-left: 45%;
     text-align: initial;
+    margin-right: 0px;
   }
   .gil {
     margin-left: 40%;
@@ -552,7 +551,9 @@ img {
     margin-top: 10%;
     margin-left: 20%;
   }
-  .yon{
+  .yon {
     width: 536px;
+    margin-left: 10%;
+    padding-right: 0;
   }
 }
